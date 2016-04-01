@@ -1,0 +1,146 @@
+{
+    "modes":[
+             {
+             "sensors":[
+                        {
+                        "type":"BUTTON"
+                        }
+                        ],
+             "name":"off",
+             "value":0
+             },
+             {
+             "sensors":[
+                        {
+                        "type":"TEMPERATURE"
+                        },
+                        {
+                        "type":"BUTTON"
+                        }
+                        ],
+             "name":"temperature",
+             "value":1
+             },
+             {
+             "sensors":[
+                        {
+                        "type":"MOTION"
+                        },
+                        {
+                        "type":"BUTTON"
+                        }
+                        ],
+             "name":"motion_temperature",
+             "value":2
+             },
+             {
+             "sensors":[
+                        {
+                        "type":"SOUND"
+                        },
+                        {
+                        "type":"BUTTON"
+                        }
+                        ],
+             "name":"sound_temperature",
+             "value":3
+             },
+             {
+             "sensors":[
+                        {
+                        "type":"SOUND"
+                        },
+                        {
+                        "type":"MOTION"
+                        },
+                        {
+                        "type":"TEMPERATURE"
+                        },
+                        {
+                        "type":"BUTTON"
+                        }
+                        ],
+             "name":"motion_sound_temperature",
+             "value":4
+             }
+             ],
+    "devices":[
+               {
+               "id":1,
+               "serial_number":"BC123",
+               "activation_date":"2015-03-01 13:50:51Z",
+               "last_comm_date":"2015-03-01 13:50:51Z",
+               "mode":1,
+               "battery":65,
+               "device_model":1
+               },
+               {
+               "id":2,
+               "serial_number":"BC124",
+               "activation_date":"2015-03-01 13:50:51Z",
+               "last_comm_date":"2015-03-01 13:50:51Z",
+               "mode":4,
+               "battery":25,
+               "device_model":1
+               }
+               ],
+    "device-detail":{
+        "id":1,
+        "serial_number":"BC123",
+        "activation_date":"2015-03-01 13:50:51Z",
+        "last_comm_date":"2015-03-01 13:50:51Z",
+        "last_config_date":"2015-03-01 13:50:51Z",
+        "config_status":"ack",
+        "mode":1,
+        "battery":65,
+        "sensors":[
+                   {
+                   "id":"10",
+                   "sensor_type":"temperature",
+                   "config":{
+                   "period":10
+                   }
+                   },
+                   {
+                   "id":"11",
+                   "sensor_type":"motion",
+                   "config":{
+                   "threshold":1
+                   }
+                   },
+                   {
+                   "id":"12",
+                   "sensor_type":"sound",
+                   "config":{
+                   "threshold":3
+                   }
+                   },
+                   {
+                   "id":"13",
+                   "sensor_type":"button"
+                   }
+                   ]
+    },
+    "sensor-detail":{
+        "id":10,
+        "sensor_type":"temperature",
+        "history":[
+                   {
+                   "date":"2015-04-27 16:52:47Z",
+                   "date_period":"2015-04-27 15:52:47Z",
+                   "data":"24.0"
+                   },
+                   {
+                   "date":"2015-04-27 16:42:47Z",
+                   "data":"23.0"
+                   },
+                   {
+                   "date":"2015-04-27 16:32:47Z",
+                   "data":"22.5"
+                   }
+                   ],
+        "config":{
+            
+        }
+    }
+}
